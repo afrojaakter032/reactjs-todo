@@ -1,6 +1,8 @@
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
-import Tasklist from "./pages/Tasklist/Tasklist";
 import Home from "./pages/Home/Home";
+import Addtask from "./pages/Addtask/Addtask";
+import Tasklist from "./pages/Tasklist/Tasklist";
+
 
 
 const router = createBrowserRouter([
@@ -11,9 +13,14 @@ const router = createBrowserRouter([
   },
 
   {
-      path: "/tasklist",
-      element: <Tasklist />,
+      path: "/addtask",
+      element: <Addtask />,
   },
+
+  {
+    path: "/tasklist",
+    element: <Tasklist />,
+},
 
 ]);
 
