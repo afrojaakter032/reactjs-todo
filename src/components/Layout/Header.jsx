@@ -21,7 +21,7 @@ function Header () {
                                 <Link to="#">TaskList</Link>
                             </li>
                             <li className="pl-20">
-                                <Link to="#" className="rounded-xl bg-[#38BBBC] px-4 py-3 text-white text-lg text-center">Add Your Task</Link>
+                                <Link to="/tasks/create" className="rounded-xl bg-[#38BBBC] px-4 py-3 text-white text-lg text-center">Add Your Task</Link>
                             </li>
                         </ul>
                     </div>
